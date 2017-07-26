@@ -1,4 +1,10 @@
 <?php
+/*
+Public Class File
+Simple Questionnaire System
+Version 1.0
+Powered By Stave
+*/
 class user{
 	function login($username,$password){
 		$query=mysql_query("SELECT * FROM `user` WHERE '$username'=`username`");
